@@ -37,3 +37,28 @@ body{
 .text-decor{
     text-decoration: none;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .text {
+        font-size: 5rem; /* Slightly smaller on medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .text {
+        font-size: 4rem; /* Smaller on small screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 3rem; /* Even smaller on tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .text {
+        font-size: 2.5rem; /* Smallest on mobile devices */
+    }
+}
