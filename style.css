@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'ModernEmo';
+    src: url(font/VerminVerile-wXyw.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.text-container{
+    text-align: center;
+}
+
+.text{
+    font-family: 'ModernEmo', sans-serif;
+    font-size: 6rem;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.text:hover{
+    color: aliceblue;
+}
+
+.text-decor{
+    text-decoration: none;
+}
